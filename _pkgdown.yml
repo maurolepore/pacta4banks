@@ -2,3 +2,9 @@ url: ~
 template:
   bootstrap: 5
 
+
+navbar:
+  type: default
+  left:
+  - text: "Reference"
+    href: articles/reference.html

@@ -1,0 +1,25 @@
+---
+title: "Reference"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  echo = FALSE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(r2dii.data)
+library(r2dii.match)
+library(r2dii.analysis)
+library(r2dii.plot)
+
+universe <- c("r2dii.data", "r2dii.match", "r2dii.analysis", "r2dii.plot")
+url_template <- "https://rmi-pacta.github.io/{package}/reference/{topic}.html"
+docs <- dverse::document_universe(universe, url_template)
+
+docs |> DT::datatable(escape = FALSE)
+
+```
