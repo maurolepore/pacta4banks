@@ -17,3 +17,5 @@ Depends:
 Config/Needs/website: rmarkdown
 URL: https://maurolepore.github.io/pacta4banks/, https://github.com/maurolepore/pacta4banks
 BugReports: https://github.com/maurolepore/pacta4banks/issues
+Suggests: 
+    dverse
