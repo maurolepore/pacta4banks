@@ -15,4 +15,5 @@ Depends:
     r2dii.match,
     r2dii.plot
 Config/Needs/website: rmarkdown
-URL: https://maurolepore.github.io/pacta4banks/
+URL: https://maurolepore.github.io/pacta4banks/, https://github.com/maurolepore/pacta4banks
+BugReports: https://github.com/maurolepore/pacta4banks/issues
