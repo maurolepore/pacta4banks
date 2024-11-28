@@ -24,4 +24,8 @@ pak::pak("maurolepore/pacta4banks")
 
 ``` r
 library(pacta4banks)
+#> Loading required package: r2dii.analysis
+#> Loading required package: r2dii.data
+#> Loading required package: r2dii.match
+#> Loading required package: r2dii.plot
 ```
